@@ -31,7 +31,7 @@ In Railway dashboard → your project → **Variables** tab, add ALL of these:
 | Variable | Value |
 |----------|-------|
 | `GEMINI_API_KEY` | `AlzaSyArTpalQFZMHoaVkjRoMhdbm7mcUNLybTE` |
-| `SUPABASE_URL` | `https://ipdwfxcwlwaraymrgno.supabase.co` |
+| `SUPABASE_URL` | `https://ipdwfxxcwlwaraymrgno.supabase.co` |
 | `SUPABASE_KEY` | `sb_publishable_95vXwvSmo2FsiAeH1wjikg_mV0tTi89` |
 | `TWILIO_ACCOUNT_SID` | `ACd0c0ba214e28eef8f0a9afee3568de2` |
 | `TWILIO_AUTH_TOKEN` | `441d5b6a32bd539d28e340f9125ef807` |

@@ -30,11 +30,11 @@ app.get('/', (req, res) => {
 app.use('/api/transactions', transactionRoutes);
 app.use('/api/summary', summaryRoutes);
 
-// Start server
-app.listen(PORT, () => {
+// Start server - specifically binding to 0.0.0.0 for Railway/Docker compatibility
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 JazzCash Agent running on port ${PORT}`);
   console.log(`⏰ Timezone: ${process.env.TZ || 'Asia/Karachi'}`);
-  
+
   // Start the daily CRON scheduler
   startScheduler();
   console.log('📅 Daily summary scheduler started (7:00 AM PKT)');
